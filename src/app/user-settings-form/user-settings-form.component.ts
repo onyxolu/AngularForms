@@ -30,8 +30,7 @@ export class UserSettingsFormComponent implements OnInit {
     this.dataservice.postUserSettingsForm(this.usersettings).subscribe(
       result => console.log('success: ', result),
       error => console.log('eror: ', error)
-      
-    )
+    );
   }
 
 
