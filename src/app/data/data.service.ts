@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { UserSettings } from './user-settings';
 import { Observable, of } from 'rxjs';
-import { HttpClient } from 'selenium-webdriver/http';
+import { HttpClient } from '@angular/common/http';
+
 
 @Injectable({
   providedIn: 'root'
